@@ -1,28 +1,28 @@
 class Wapit < Formula
   desc "Local WhatsApp Cloud API mock and inbox for development"
   homepage "https://github.com/patriciomartinns/wapit"
-  version "0.1.0"
+  version "0.2.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/patriciomartinns/wapit/releases/download/v0.1.0/wapit-v0.1.0-aarch64-apple-darwin.tar.gz"
-      sha256 "34af428efbe8cff0c715016962c138b7e5b9c357eadfa493fbb9182ab0fa4b6e"
+      url "https://github.com/patriciomartinns/wapit/releases/download/v0.2.0/wapit-v0.2.0-aarch64-apple-darwin.tar.gz"
+      sha256 "3513698d2cf6e70a4ea208a80a4d8832ddf859f4884d54317bf8e06a283c4d40"
     end
     on_intel do
-      url "https://github.com/patriciomartinns/wapit/releases/download/v0.1.0/wapit-v0.1.0-x86_64-apple-darwin.tar.gz"
-      sha256 "8b831f9d6a15fa5380a1e4022345aaea9fc90bc75e26e8a322139ae64848cc64"
+      url "https://github.com/patriciomartinns/wapit/releases/download/v0.2.0/wapit-v0.2.0-x86_64-apple-darwin.tar.gz"
+      sha256 "b7dad280ed68ff5d4844a8feebed970fb83f410fb76264ea0f0732f84610d7f7"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/patriciomartinns/wapit/releases/download/v0.1.0/wapit-v0.1.0-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "4b60fbdf7f891847b9076495f46b9d651340fac821038ab55a85a4b342941a6f"
+      url "https://github.com/patriciomartinns/wapit/releases/download/v0.2.0/wapit-v0.2.0-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "f03a1024123a7752fcb12978701f1f0380fc87502f14ad018c9ff1caaafe9f6f"
     end
     on_intel do
-      url "https://github.com/patriciomartinns/wapit/releases/download/v0.1.0/wapit-v0.1.0-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "62148193800db76ef5e9a0c28fb8f281489c24ad2060c0ad03eaa162cda03e8f"
+      url "https://github.com/patriciomartinns/wapit/releases/download/v0.2.0/wapit-v0.2.0-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "2085d603a7129379c83d6ae5761de703c371fc31823fe04100ea231fec8a8421"
     end
   end
 
